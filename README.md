@@ -2,12 +2,12 @@
 
 Esta aplicação permite realizar testes de carga em um serviço web através de comandos CLI.
 
-### Entrada de parâmetros via CLI:
---url: URL do serviço a ser testado.
---requests: Número total de requests.
---concurrency: Número de chamadas simultâneas.
+#### Entrada de parâmetros via CLI:
+* --url: URL do serviço a ser testado.
+* --requests: Número total de requests.
+* --concurrency: Número de chamadas simultâneas.
 
-### Dados do relatório final:
+#### Dados do relatório final:
 * Tempo total gasto na execução.
 * Quantidade total de requests realizados.
 * Quantidade de requests com status HTTP 200.
