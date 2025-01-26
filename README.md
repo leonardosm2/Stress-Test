@@ -2,16 +2,17 @@
 
 Esta aplicação permite realizar testes de carga em um serviço web através de comandos CLI.
 
-#### Entrada de parâmetros via CLI:
+### Entrada de parâmetros via CLI:
 --url: URL do serviço a ser testado.
 --requests: Número total de requests.
 --concurrency: Número de chamadas simultâneas.
 
-#### Dados do relatório final:
-* Tempo total gasto na execução
+### Dados do relatório final:
+* Tempo total gasto na execução.
 * Quantidade total de requests realizados.
 * Quantidade de requests com status HTTP 200.
 * Distribuição de outros códigos de status HTTP (como 404, 500, etc.).
+
 
 ## Executando o teste de carga em ambiente local
 1. Certifique-se de ter o Docker instalado.
